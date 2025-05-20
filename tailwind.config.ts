@@ -18,7 +18,22 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				nunito: ['Nunito', 'sans-serif'],
+			},
 			colors: {
+				softgreen: "#F2FCE2",
+				softyellow: "#FEF7CD",
+				softblue: "#D3E4FD",
+				softorange: "#FEC6A1",
+				softpurple: "#E5DEFF",
+				softpink: "#FFDEE2",
+				softpeach: "#FDE1D3",
+				neutralgray: "#8E9196",
+				bgcerah: "#F1F1F1",
+				admin: "#8B5CF6",
+				guru: "#60B586",
+				siswa: "#0EA5E9",
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
